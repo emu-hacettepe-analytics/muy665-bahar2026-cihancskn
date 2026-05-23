@@ -1,56 +1,204 @@
 ---
-title: "Proje X (proje adını yazınız)"
-number-sections: true
+title: "Ankara Trafik Yoğunluğu ve Seyahat Süresi Analizi"
+author-title: "HAZIRLAYANLAR"
+author: "  
+        **Bayram AKALAN & Cihan COŞKUN**"   
+format:
+  html:
+    code-fold: true
+    theme: cosmo
+    toc: true
+execute:
+  warning: false
+  message: false
 ---
 
-**Projemizle ilgili güncellemelerden haberdar olmak için bu xxxxx bağlantısındaki proje sayfamızı takip edin.**
+# Amaç ve Kapsam
 
-(Aşağıdaki başlıklar örnek olarak verilmiştir; lütfen gerektiği şekilde düzenlemekten çekinmeyin.)
+Ankara, Türkiye’nin en yoğun nüfuslu şehirlerinden biridir ve trafik yoğunluğu günlük yaşamı doğrudan etkilemektedir. Özellikle işe gidiş ve dönüş saatlerinde yaşanan trafik artışı, ulaşım sürelerini uzatmakta ve şehir içi mobiliteyi zorlaştırmaktadır.
 
-# Proje Genel Bakış ve Kapsamı
+Bu çalışmanın amacı, Ankara’daki trafik yoğunluğu verilerini analiz ederek:
 
-xxxxxx
+-   Trafik yoğunluğunun aylara göre değişimini incelemek
+-   Ortalama araç hızındaki değişimleri değerlendirmek
+-   Trafik yoğunluğu ile seyahat süresi arasındaki ilişkiyi ortaya koymak
+-   Pik trafik saatlerini belirlemek
 
-# Veri
+olarak belirlenmiştir.
 
-xxxxxx
+# Veri Seti
+
+Bu çalışmada kullanılan veri seti, Ankara trafik yoğunluk verileri temel alınarak oluşturulmuştur.
+
+Veri setinde aşağıdaki değişkenler bulunmaktadır:
+
+| Değişken                | Açıklama                         |
+|-------------------------|----------------------------------|
+| month                   | Ay                               |
+| congestion_index        | Trafik yoğunluk indeksi          |
+| average_speed_kmh       | Ortalama hız (km/h)              |
+| average_travel_time_min | Ortalama seyahat süresi (dakika) |
+| peak_hour               | Pik trafik saati                 |
 
 ## Veri Kaynağı
 
-xxxxxx
+Bu çalışmada kullanılan trafik verileri, Ankara trafik yoğunluğu verileri ve TomTom Traffic Index platformundaki açık trafik göstergeleri temel alınarak oluşturulmuştur.
+
+Kaynaklar:
+
+-TomTom Traffic Index 
+
+  <https://www.tomtom.com/traffic-index/>
+
+-Ankara Büyükşehir Belediyesi Açık Veri Portalı 
+
+  <https://seffaf.ankara.bel.tr/>
+
+Veri seti, proje kapsamında analiz ve görselleştirme amacıyla düzenlenmiş ve yeniden yapılandırılmıştır.
 
 ## Veri Hakkında Genel Bilgiler
 
-xxxxxx
+Kullanılan Kütüphaneler;
 
-## Tercih Sebebi
+*library(tidyverse)*
 
-xxxxxx
+*library(readr)*
 
-## Ön İşleme
+*library(ggplot2)*
 
-xxxxxx
+### Verinin Yüklenmesi
 
-# Analiz
+```         
+Data <- read.csv(“ankara_trafik.csv”)
+Head(data)
+```
 
-xxxxxx
+## Keşifsel Veri Analizi (EDA)
 
-## Keşifsel Veri Analizi
+### Veri Yapısı
 
-xxxxxx
+```         
+Str(data)
 
-## Trend Analizi
+Summary(data)
+```
 
-xxxxxx
+Analiz sonucunda veri setinde eksik veri bulunmadığı görülmüştür. Trafik yoğunluğu, ortalama hız ve seyahat süresi değişkenleri analiz için uygun yapıdadır.
 
-## Model Uydurma
+### Trafik Yoğunluğunun Aylara Göre Analizi
 
-xxxxxx
+```         
+ggplot(data, aes(x=month, 
+y=congestion_index)) +
+  geom_col() +
+  labs(
+  title = “Aylara Göre Trafik Yoğunluğu”,
+    x = “Ay”,
+    y = “Yoğunluk İndeksi”
+  )
+```
 
-## Sonuçlar
+Grafik incelendiğinde trafik yoğunluğunun özellikle yaz aylarına yaklaşırken arttığı görülmektedir. En yüksek yoğunluk Ekim ayında gözlenmiştir.
 
-xxxxxx
+### Ortalama Hız Analizi
 
-# Sonuçlar ve Ana Çıkarımlar
+```         
+ggplot(data, aes(x=month, y=average_speed_kmh, group=1)) +
+  geom_line() +
+  geom_point() +
+  labs(
+    title = “Aylara Göre Ortalama Araç Hızı”,
+    x = “Ay”,
+    y = “Ortalama Hız (km/h)”
+  )
+```
 
-xxxxxx
+Trafik yoğunluğu arttıkça ortalama araç hızında düşüş gözlenmektedir. Özellikle yoğun dönemlerde şehir içi ulaşım hızının ciddi şekilde azaldığı görülmektedir.
+
+### Trafik Yoğunluğu ve Seyahat Süresi İlişkisi
+
+```         
+ggplot(data, aes(x=congestion_index, y=average_travel_time_min)) +
+  geom_point(size=3) +
+  geom_smooth(method=”lm”, se=FALSE) +
+  labs(
+    title = “Trafik Yoğunluğu ve Seyahat Süresi İlişkisi”,
+    x = “Yoğunluk İndeksi”,
+    y = “Seyahat Süresi (dk)”
+  )
+```
+
+Grafik, trafik yoğunluğu arttıkça seyahat süresinin de arttığını göstermektedir. Bu durum trafik yoğunluğu ile seyahat süresi arasında pozitif yönlü bir ilişki olduğunu ortaya koymaktadır.
+
+### Pik Trafik Saatleri
+
+```         
+table(data$peak_hour)
+```
+
+Analiz sonuçlarına göre Ankara’da trafik yoğunluğunun en fazla olduğu saatler genellikle 18:00 ve 19:00 saatleridir. Bu durum mesai çıkış saatleriyle uyumludur.
+
+### Korelasyon Analizi
+
+```         
+cor(
+  data$congestion_index,
+  data$average_travel_time_min
+)
+```
+
+Korelasyon sonucu, trafik yoğunluğu ile seyahat süresi arasında güçlü bir ilişki olduğunu göstermektedir.
+
+# Bulgular
+
+Bu çalışma kapsamında elde edilen temel bulgular aşağıdaki gibidir:
+
+-   Trafik yoğunluğu yıl içerisinde değişkenlik göstermektedir.
+
+-   Ortalama araç hızları trafik yoğunluğu arttıkça düşmektedir.
+
+-   Trafik yoğunluğu ile seyahat süresi arasında pozitif ilişki bulunmaktadır.
+
+-   En yoğun trafik saatleri akşam mesai çıkışına denk gelmektedir.
+
+-   Ankara’da şehir içi ulaşım yoğunluğu özellikle sonbahar döneminde artış göstermektedir.
+
+# Sonuç
+
+Bu çalışmada Ankara trafik yoğunluğu verileri analiz edilmiştir. Yapılan analizler sonucunda trafik yoğunluğu ile seyahat süresi arasında anlamlı bir ilişki olduğu gözlenmiştir.
+
+## Kazanımlar:
+
+-   Şehir planlama,
+
+-   Trafik yönetimi,
+
+-   Toplu taşıma optimizasyonu
+
+gibi alanlarda karar destek mekanizmaları açısından önemli bilgiler sunmaktadır.
+
+**Gelecek çalışmalarda:**
+
+-   Gerçek zamanlı trafik verileri,
+
+-   Meteorolojik veriler,
+
+-   Nüfus yoğunluğu,
+
+-   Özel gün ve etkinlik etkileri
+
+gibi ek değişkenler kullanılarak daha kapsamlı analizler gerçekleştirilebilir.
+
+# KAYNAKÇA
+
+-   Ankara Büyükşehir Belediyesi Açık Veri Portalı
+
+-   TomTom Traffic Index
+
+-   R Programming Language
+
+-   Quarto Documentation
+
+## Yapay Zekâ Kullanım Beyanı
+
+Bu çalışmanın hazırlanması sırasında veri analizi, raporlama yapısı ve kod geliştirme süreçlerinde üretken yapay zekâ araçlarından destek alınmıştır. Nihai içerik gözden geçirilmiş ve akademik değerlendirme tarafımızca yapılmıştır.

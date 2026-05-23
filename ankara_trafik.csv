@@ -1,0 +1,13 @@
+month,congestion_index,average_speed_kmh,average_travel_time_min,peak_hour
+Jan,48,31,18,18:00
+Feb,50,30,19,18:00
+Mar,54,28,21,18:00
+Apr,57,27,22,18:00
+May,60,25,24,19:00
+Jun,63,24,26,19:00
+Jul,58,26,23,18:00
+Aug,56,27,22,18:00
+Sep,61,25,25,19:00
+Oct,64,23,27,19:00
+Nov,59,26,23,18:00
+Dec,53,29,20,18:00

@@ -6,3 +6,5 @@ sidebar: false
 MUY660-İş Analitiği dersi sayfama hoş geldiniz.
 
 Bu analitik çalışmalarımızı paylaşıyorum.
+
+[Trafik Analizi Projemizle ilgili güncellemelerden haberdar olmak için bu bağlantıdaki proje sayfamızı takip edin.](proje.html){.btn .btn-primary}
