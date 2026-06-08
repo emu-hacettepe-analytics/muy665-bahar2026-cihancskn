@@ -3,31 +3,30 @@ title: "Hakkımda"
 sidebar: false 
 ---
 
-![](assets/images/vesikalik.jpeg){fig-align="center"}
+![](images/clipboard-691463600.jpeg){fig-align="center" width="202"}
 
 # Eğitim
 
--   B.S., ................................., ....................................University, Turkey, 20xx - 20xx.
--   M.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
--   Ph.D.., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Aksaray University, Turkey, 2016 - 2020.
+-   M.S., Industrial Engineering, Hacettepe University, Turkey, 2025 - ongoing.
 
 # İş Tecrübesi
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
+1.  Hamid Havacilik A.S. , Project Enginner , 2020-2025
 
-2.  Firm yyy, position yyy, year yyy
+2.  Basariarge Enerji Teknolojileri A.S. , Specialist Manufacturing and Project Engineer , 2025-ongoing
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
-
-2.  Firm bbb, position yyy, year yyy
+1.  Titan Makina Ltd. Sti. , intern , 2018
 
 # Projects
 
-1.  TUBİTAK 1001..........................
+1.  TUBITAK 1501
+
+    Development of a Domestic Actuator for Internal Airflow Control Systems of Civilian and Military Jet Aircraft
 
 # Publications
 
@@ -38,3 +37,9 @@ sidebar: false
 R, Quarto, Git, Python
 
 # Hobbies
+
+FOOTBALL
+
+PARACHUTEZ
+
+TREKKING
