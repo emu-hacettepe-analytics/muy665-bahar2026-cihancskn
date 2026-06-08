@@ -1,0 +1,328 @@
+[
+  {
+    "objectID": "proje.html",
+    "href": "proje.html",
+    "title": "Ankara Trafik Yoğunluğu ve Seyahat Süresi Analizi",
+    "section": "",
+    "text": "Ankara, Türkiye’nin en yoğun nüfuslu şehirlerinden biridir ve trafik yoğunluğu günlük yaşamı doğrudan etkilemektedir. Özellikle işe gidiş ve dönüş saatlerinde yaşanan trafik artışı, ulaşım sürelerini uzatmakta ve şehir içi mobiliteyi zorlaştırmaktadır.\nBu çalışmanın amacı, Ankara’daki trafik yoğunluğu verilerini analiz ederek:\n\nTrafik yoğunluğunun aylara göre değişimini incelemek\nOrtalama araç hızındaki değişimleri değerlendirmek\nTrafik yoğunluğu ile seyahat süresi arasındaki ilişkiyi ortaya koymak\nPik trafik saatlerini belirlemek\n\nolarak belirlenmiştir."
+  },
+  {
+    "objectID": "proje.html#veri-kaynağı",
+    "href": "proje.html#veri-kaynağı",
+    "title": "Ankara Trafik Yoğunluğu ve Seyahat Süresi Analizi",
+    "section": "Veri Kaynağı",
+    "text": "Veri Kaynağı\nBu çalışmada kullanılan trafik verileri, Ankara trafik yoğunluğu verileri ve TomTom Traffic Index platformundaki açık trafik göstergeleri temel alınarak oluşturulmuştur.\nKaynaklar:\n-TomTom Traffic Index \n  https://www.tomtom.com/traffic-index/\n-Ankara Büyükşehir Belediyesi Açık Veri Portalı \n  https://seffaf.ankara.bel.tr/\nVeri seti, proje kapsamında analiz ve görselleştirme amacıyla düzenlenmiş ve yeniden yapılandırılmıştır."
+  },
+  {
+    "objectID": "proje.html#veri-hakkında-genel-bilgiler",
+    "href": "proje.html#veri-hakkında-genel-bilgiler",
+    "title": "Ankara Trafik Yoğunluğu ve Seyahat Süresi Analizi",
+    "section": "Veri Hakkında Genel Bilgiler",
+    "text": "Veri Hakkında Genel Bilgiler\nKullanılan Kütüphaneler;\n\n\nCode\nlibrary(tidyverse)\nlibrary(readr)\nlibrary(ggplot2)\n\n\n\nVerinin Yüklenmesi\n\n\nCode\ntrafik &lt;- read.csv(\"ankara_trafik.csv\")\nhead(trafik)\n\n\n  month congestion_index average_speed_kmh average_travel_time_min peak_hour\n1   Jan               48                31                      18     18:00\n2   Feb               50                30                      19     18:00\n3   Mar               54                28                      21     18:00\n4   Apr               57                27                      22     18:00\n5   May               60                25                      24     19:00\n6   Jun               63                24                      26     19:00"
+  },
+  {
+    "objectID": "proje.html#tercih-sebebi",
+    "href": "proje.html#tercih-sebebi",
+    "title": "Proje X (proje adını yazınız)",
+    "section": "2.3 Tercih Sebebi",
+    "text": "2.3 Tercih Sebebi\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#ön-işleme",
+    "href": "proje.html#ön-işleme",
+    "title": "Proje X (proje adını yazınız)",
+    "section": "2.4 Ön İşleme",
+    "text": "2.4 Ön İşleme\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#keşifsel-veri-analizi",
+    "href": "proje.html#keşifsel-veri-analizi",
+    "title": "Proje X (proje adını yazınız)",
+    "section": "3.1 Keşifsel Veri Analizi",
+    "text": "3.1 Keşifsel Veri Analizi\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#trend-analizi",
+    "href": "proje.html#trend-analizi",
+    "title": "Proje X (proje adını yazınız)",
+    "section": "3.2 Trend Analizi",
+    "text": "3.2 Trend Analizi\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#model-uydurma",
+    "href": "proje.html#model-uydurma",
+    "title": "Proje X (proje adını yazınız)",
+    "section": "3.3 Model Uydurma",
+    "text": "3.3 Model Uydurma\nxxxxxx"
+  },
+  {
+    "objectID": "proje.html#sonuçlar",
+    "href": "proje.html#sonuçlar",
+    "title": "Proje X (proje adını yazınız)",
+    "section": "3.4 Sonuçlar",
+    "text": "3.4 Sonuçlar\nxxxxxx"
+  },
+  {
+    "objectID": "portfolyo.html",
+    "href": "portfolyo.html",
+    "title": "Portfolyo",
+    "section": "",
+    "text": "Bu sayfada, MUY665 İş Analitiği dersi 2025-2026 bahar dönemi boyunca yaptığım analitik çalışmalarımı sunmaktayım. Çalışmalarıma sol menüden ulaşabilirsiniz.\n\n\n\n Back to top",
+    "crumbs": [
+      "Portfolyo"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma1.html",
+    "href": "portfolyo/calisma1.html",
+    "title": "Çalışma 1",
+    "section": "",
+    "text": "Video, veri bilimi ile endüstri mühendisliğinin kesişimi ve bu alanda kariyer yapmak isteyenler için tavsiyeler üzerine yapılan bir sohbet/röportaj formatında. Baykal HAFIZOĞLU ve Erdi DAŞDEMİR beyler, kendi deneyimleri üzerinden hem akademik hem sektör tarafını anlatıyor.",
+    "crumbs": [
+      "Çalışma 1"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma1.html#a",
+    "href": "portfolyo/calisma1.html#a",
+    "title": "Çalışma 1",
+    "section": "(a)",
+    "text": "(a)\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Çalışma 1"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma1.html#b",
+    "href": "portfolyo/calisma1.html#b",
+    "title": "Çalışma 1",
+    "section": "(b)",
+    "text": "(b)",
+    "crumbs": [
+      "Çalışma 1"
+    ]
+  },
+  {
+    "objectID": "about.html#employements",
+    "href": "about.html#employements",
+    "title": "Hakkımda",
+    "section": "Employements",
+    "text": "Employements\n\nTürk Telekom, Network Engineer, 2010-2016\nATOS, Senior Network Engineer, 2016-2017\nTechsquare IT Solutions, Consultant, 2017-2021\nBİTES Aerospace&Defence, Systems Engineering Group Lead, 2021-On Going"
+  },
+  {
+    "objectID": "about.html#internships",
+    "href": "about.html#internships",
+    "title": "Hakkımda",
+    "section": "Internships",
+    "text": "Internships\n\nTürk Telekom A.Ş., İntern Engineer, 2004\nKeban HES, İntern Engineer, 2005"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Analitik sayfama hoş geldiniz",
+    "section": "",
+    "text": "MUY660-İş Analitiği dersi sayfama hoş geldiniz.\nBu analitik çalışmalarımızı paylaşıyorum.\nTrafik Analizi Projemizle ilgili güncellemelerden haberdar olmak için bu bağlantıdaki proje sayfamızı takip edin.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "portfolyo/calisma2.html",
+    "href": "portfolyo/calisma2.html",
+    "title": "Çalışma 2",
+    "section": "",
+    "text": "--- title: \"R Studio Ödevi\" author: \"Bayram\" date: \"`r Sys.Date()`\" output: html_document ---  ```{r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE)\n\n\n# Paketi yükle (sadece ilk seferde) if(!require(dslabs)) install.packages(\"dslabs\") library(dslabs)  # Veri setini yükle data(\"polls_us_election_2016\") data &lt;- polls_us_election_2016  # Veri setinin ilk birkaç satırını görüntüle head(data)\n\n\n\nmy_first &lt;- \"Bayram\" my_birth_year &lt;- 1983  # Bilgileri kontrol et my_first my_birth_year\n\n\n\nk &lt;- (nchar(my_first) + my_birth_year) %% 15 + 8 k\n\nAçıklama: % 15 → 0–14 aralığına sıkıştırır\n+8 → k’nın 8–22 arasında olmasını garanti eder\nHesaplama sonucunda: k = 17 (tek sayı)\n\n\n\n\nif(k %% 2 == 0){   head(data, k) } else{   tail(data, k) }\n\nk tek olduğu için son 17 satır gösterilir.\n\n\n\n\n# Toplam NA sayısı total_na &lt;- sum(is.na(data)) total_na  # Sütun başına NA sayısı (ilk 8 sütun) na_per_column &lt;- sort(colSums(is.na(data)), decreasing = TRUE) head(na_per_column, 8)\n\n\n\nnew_data &lt;- data  # orijinal veri değişmeyecek  # Sayısal sütunlar num_cols &lt;- sapply(new_data, is.numeric) for(col in names(new_data)[num_cols]){   new_data[[col]][is.na(new_data[[col]])] &lt;- my_birth_year + k }  # Karakter ve faktör sütunlar char_factor_cols &lt;- sapply(new_data, function(x) is.character(x) | is.factor(x)) for(col in names(new_data)[char_factor_cols]){   new_data[[col]][is.na(new_data[[col]])] &lt;- paste0(my_first, \"_\", k) }\n\n\n\nif(k %% 2 == 0){   head(new_data, k) } else{   tail(new_data, k) }\n\n\n\n# Kalan toplam NA sayısı sum(is.na(new_data))  # anyNA kontrolü anyNA(new_data)\n\nDoğru ise sum(is.na(new_data)) = 0\nanyNA(new_data) = FALSE ✅",
+    "crumbs": [
+      "Çalışma 2"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma2.html#a",
+    "href": "portfolyo/calisma2.html#a",
+    "title": "Çalışma 2",
+    "section": "(a)",
+    "text": "(a)\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Çalışma 2"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma2.html#b",
+    "href": "portfolyo/calisma2.html#b",
+    "title": "Çalışma 2",
+    "section": "(b)",
+    "text": "(b)",
+    "crumbs": [
+      "Çalışma 2"
+    ]
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "Bu sayfa yapım aşamasındadır.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html#projects",
+    "href": "about.html#projects",
+    "title": "Hakkımda",
+    "section": "# Projects",
+    "text": "# Projects"
+  },
+  {
+    "objectID": "about.html#publications",
+    "href": "about.html#publications",
+    "title": "Hakkımda",
+    "section": "# Publications",
+    "text": "# Publications"
+  },
+  {
+    "objectID": "portfolyo/calisma1.html#a-videonun-kısa-özeti",
+    "href": "portfolyo/calisma1.html#a-videonun-kısa-özeti",
+    "title": "Çalışma 1",
+    "section": "",
+    "text": "Video, veri bilimi ile endüstri mühendisliğinin kesişimi ve bu alanda kariyer yapmak isteyenler için tavsiyeler üzerine yapılan bir sohbet/röportaj formatında. Baykal HAFIZOĞLU ve Erdi DAŞDEMİR beyler, kendi deneyimleri üzerinden hem akademik hem sektör tarafını anlatıyor.",
+    "crumbs": [
+      "Çalışma 1"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma1.html#videoda-işlenen-ana-konular",
+    "href": "portfolyo/calisma1.html#videoda-işlenen-ana-konular",
+    "title": "Çalışma 1",
+    "section": "Videoda İşlenen Ana Konular",
+    "text": "Videoda İşlenen Ana Konular\n\n1. Veri bilimi nedir ve neden önemli?\nGünümüzde şirketlerin çok büyük miktarda veri topladığı anlatılıyor.\nBu verilerin analiz edilmesi ve karar destek sistemlerine dönüştürülmesi veri biliminin temel amacı.\nVeri bilimi; istatistik, programlama ve iş bilgisi gibi alanların birleşimi olarak açıklanıyor.\n\n\n2. Endüstri mühendisliği ile veri bilimi ilişkisi\nEndüstri mühendisliğinin zaten optimizasyon, istatistik ve sistem analizi gibi temelleri olduğu için veri bilimine yakın olduğu vurgulanıyor.\nBu nedenle birçok endüstri mühendisi data analyst, data scientist veya business analyst gibi rollere geçebiliyor.\n\n\n3. Veri bilimi alanında gerekli beceriler\nSohbette özellikle şu beceriler öne çıkarılıyor:\n\nİstatistik ve olasılık bilgisi\nProgramlama (Python, R vb.)\nSQL ve veri tabanı bilgisi\nMakine öğrenmesi ve veri analizi\nİngilizce ve iletişim becerileri\n\n\n\n4. Kariyer ve sektör deneyimleri\nKonuşmacılar:\n\nTürkiye’de veri bilimi alanındaki iş fırsatlarını,\nŞirketlerde veri biliminin nasıl kullanıldığını,\nYeni mezunların nasıl kendini geliştirebileceğini anlatıyor.\n\n\n\n5. Öğrencilere tavsiyeler\nÖzellikle şu öneriler veriliyor:\n\nÜniversite sırasında projeler yapmak,\nStaj ve gerçek veriyle çalışma deneyimi kazanmak,\nGitHub/portföy oluşturmak,\nMatematik ve istatistik temelini güçlü tutmak.\n\nÖzetle video;\nveri bilimi alanının ne olduğu, endüstri mühendisliği ile bağlantısı, bu alanda çalışmak için gerekli yetkinlikler ve kariyer tavsiyeleri üzerine yapılan bir sohbet niteliğinde.",
+    "crumbs": [
+      "Çalışma 1"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma1.html#açık-uçlu-soru",
+    "href": "portfolyo/calisma1.html#açık-uçlu-soru",
+    "title": "Çalışma 1",
+    "section": "1-Açık Uçlu Soru",
+    "text": "1-Açık Uçlu Soru\nSoru:\nVeri bilimi ile endüstri mühendisliği arasındaki ilişkiyi açıklayınız. Endüstri mühendisliği eğitiminin veri bilimi alanında çalışmak isteyen birine hangi açılardan avantaj sağladığını örneklerle belirtiniz.\nCevap :\n\nEndüstri mühendisliği; istatistik, optimizasyon, sistem analizi ve karar verme yöntemleri gibi alanları içerir. Bu konular veri biliminin temelini oluşturan veri analizi ve modelleme süreçleriyle doğrudan ilişkilidir. Endüstri mühendisleri veri analizi yaparak süreçleri optimize etmeye ve karar destek sistemleri geliştirmeye alışkın oldukları için veri bilimi alanına daha kolay adapte olabilirler. Ayrıca problem çözme, süreç iyileştirme ve iş süreçlerini anlama becerileri veri biliminde önemli avantaj sağlar.",
+    "crumbs": [
+      "Çalışma 1"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma1.html#çoktan-seçmeli-soru",
+    "href": "portfolyo/calisma1.html#çoktan-seçmeli-soru",
+    "title": "Çalışma 1",
+    "section": "2-Çoktan Seçmeli Soru",
+    "text": "2-Çoktan Seçmeli Soru\nSoru:\nAşağıdakilerden hangisi veri bilimi alanında çalışmak için önemli görülen becerilerden biri değildir?\nA) İstatistik ve olasılık bilgisi\nB) Programlama bilgisi (Python, R vb.)\nC) Veri tabanı ve SQL bilgisi\nD) Mekanik makine tasarımı\nDoğru Cevap:\nD) Mekanik makine tasarımı\nAçıklama:\nVeri bilimi alanında istatistik, programlama ve veri tabanı bilgisi önemliyken mekanik makine tasarımı doğrudan gerekli bir beceri değildir.",
+    "crumbs": [
+      "Çalışma 1"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma1.html#b-videodan-üretilen-sorular",
+    "href": "portfolyo/calisma1.html#b-videodan-üretilen-sorular",
+    "title": "Çalışma 1",
+    "section": "(3b) Videodan üretilen Sorular",
+    "text": "(3b) Videodan üretilen Sorular",
+    "crumbs": [
+      "Çalışma 1"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma2.html#paket-ve-veri-seti",
+    "href": "portfolyo/calisma2.html#paket-ve-veri-seti",
+    "title": "Çalışma 2",
+    "section": "",
+    "text": "# Paketi yükle (sadece ilk seferde) if(!require(dslabs)) install.packages(\"dslabs\") library(dslabs)  # Veri setini yükle data(\"polls_us_election_2016\") data &lt;- polls_us_election_2016  # Veri setinin ilk birkaç satırını görüntüle head(data)",
+    "crumbs": [
+      "Çalışma 2"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma2.html#kendi-bilgilerini-tanımla",
+    "href": "portfolyo/calisma2.html#kendi-bilgilerini-tanımla",
+    "title": "Çalışma 2",
+    "section": "",
+    "text": "my_first &lt;- \"Bayram\" my_birth_year &lt;- 1983  # Bilgileri kontrol et my_first my_birth_year",
+    "crumbs": [
+      "Çalışma 2"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma2.html#k-değerini-hesaplama",
+    "href": "portfolyo/calisma2.html#k-değerini-hesaplama",
+    "title": "Çalışma 2",
+    "section": "",
+    "text": "k &lt;- (nchar(my_first) + my_birth_year) %% 15 + 8 k\n\nAçıklama: % 15 → 0–14 aralığına sıkıştırır\n+8 → k’nın 8–22 arasında olmasını garanti eder\nHesaplama sonucunda: k = 17 (tek sayı)",
+    "crumbs": [
+      "Çalışma 2"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma2.html#k-satırını-gösterme",
+    "href": "portfolyo/calisma2.html#k-satırını-gösterme",
+    "title": "Çalışma 2",
+    "section": "",
+    "text": "if(k %% 2 == 0){   head(data, k) } else{   tail(data, k) }\n\nk tek olduğu için son 17 satır gösterilir.",
+    "crumbs": [
+      "Çalışma 2"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma2.html#toplam-ve-sütun-bazlı-na-sayısı",
+    "href": "portfolyo/calisma2.html#toplam-ve-sütun-bazlı-na-sayısı",
+    "title": "Çalışma 2",
+    "section": "",
+    "text": "# Toplam NA sayısı total_na &lt;- sum(is.na(data)) total_na  # Sütun başına NA sayısı (ilk 8 sütun) na_per_column &lt;- sort(colSums(is.na(data)), decreasing = TRUE) head(na_per_column, 8)",
+    "crumbs": [
+      "Çalışma 2"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma2.html#na-değerlerini-değiştirip-yeni-veri-seti-oluşturma",
+    "href": "portfolyo/calisma2.html#na-değerlerini-değiştirip-yeni-veri-seti-oluşturma",
+    "title": "Çalışma 2",
+    "section": "",
+    "text": "new_data &lt;- data  # orijinal veri değişmeyecek  # Sayısal sütunlar num_cols &lt;- sapply(new_data, is.numeric) for(col in names(new_data)[num_cols]){   new_data[[col]][is.na(new_data[[col]])] &lt;- my_birth_year + k }  # Karakter ve faktör sütunlar char_factor_cols &lt;- sapply(new_data, function(x) is.character(x) | is.factor(x)) for(col in names(new_data)[char_factor_cols]){   new_data[[col]][is.na(new_data[[col]])] &lt;- paste0(my_first, \"_\", k) }",
+    "crumbs": [
+      "Çalışma 2"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma2.html#yeni-veri-setinde-k-satırını-gösterme",
+    "href": "portfolyo/calisma2.html#yeni-veri-setinde-k-satırını-gösterme",
+    "title": "Çalışma 2",
+    "section": "",
+    "text": "if(k %% 2 == 0){   head(new_data, k) } else{   tail(new_data, k) }",
+    "crumbs": [
+      "Çalışma 2"
+    ]
+  },
+  {
+    "objectID": "portfolyo/calisma2.html#yeni-veri-setindeki-na-kontrolü",
+    "href": "portfolyo/calisma2.html#yeni-veri-setindeki-na-kontrolü",
+    "title": "Çalışma 2",
+    "section": "",
+    "text": "# Kalan toplam NA sayısı sum(is.na(new_data))  # anyNA kontrolü anyNA(new_data)\n\nDoğru ise sum(is.na(new_data)) = 0\nanyNA(new_data) = FALSE ✅",
+    "crumbs": [
+      "Çalışma 2"
+    ]
+  },
+  {
+    "objectID": "proje.html#keşifsel-veri-analizi-eda",
+    "href": "proje.html#keşifsel-veri-analizi-eda",
+    "title": "Ankara Trafik Yoğunluğu ve Seyahat Süresi Analizi",
+    "section": "Keşifsel Veri Analizi (EDA)",
+    "text": "Keşifsel Veri Analizi (EDA)\n\nVeri Yapısı\n\n\nCode\nstr(trafik)\n\n\n'data.frame':   12 obs. of  5 variables:\n $ month                  : chr  \"Jan\" \"Feb\" \"Mar\" \"Apr\" ...\n $ congestion_index       : int  48 50 54 57 60 63 58 56 61 64 ...\n $ average_speed_kmh      : int  31 30 28 27 25 24 26 27 25 23 ...\n $ average_travel_time_min: int  18 19 21 22 24 26 23 22 25 27 ...\n $ peak_hour              : chr  \"18:00\" \"18:00\" \"18:00\" \"18:00\" ...\n\n\nCode\nsummary(trafik)\n\n\n    month           congestion_index average_speed_kmh average_travel_time_min\n Length:12          Min.   :48.00    Min.   :23.00     Min.   :18.00          \n Class :character   1st Qu.:53.75    1st Qu.:25.00     1st Qu.:20.75          \n Mode  :character   Median :57.50    Median :26.50     Median :22.50          \n                    Mean   :56.92    Mean   :26.75     Mean   :22.50          \n                    3rd Qu.:60.25    3rd Qu.:28.25     3rd Qu.:24.25          \n                    Max.   :64.00    Max.   :31.00     Max.   :27.00          \n  peak_hour        \n Length:12         \n Class :character  \n Mode  :character  \n                   \n                   \n                   \n\n\nAnaliz sonucunda veri setinde eksik veri bulunmadığı görülmüştür. Trafik yoğunluğu, ortalama hız ve seyahat süresi değişkenleri analiz için uygun yapıdadır.\n\n\nTrafik Yoğunluğunun Aylara Göre Analizi\n\n\nCode\nggplot(trafik, aes(x = month, y = congestion_index)) +\n  geom_col() +\n  labs(\n    title = \"Aylara Göre Trafik Yoğunluğu\",\n    x = \"Ay\",\n    y = \"Yoğunluk İndeksi\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\nGrafik incelendiğinde trafik yoğunluğunun özellikle yaz aylarına yaklaşırken arttığı görülmektedir. En yüksek yoğunluk Ekim ayında gözlenmiştir.\n\n\nOrtalama Hız Analizi\n\n\nCode\nggplot(trafik, aes(x = month, y = average_speed_kmh, group = 1)) +\n  geom_line(linewidth = 1) +\n  geom_point(size = 3) +\n  labs(\n    title = \"Aylara Göre Ortalama Araç Hızı\",\n    x = \"Ay\",\n    y = \"Ortalama Hız (km/h)\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\nTrafik yoğunluğu arttıkça ortalama araç hızında düşüş gözlenmektedir. Özellikle yoğun dönemlerde şehir içi ulaşım hızının ciddi şekilde azaldığı görülmektedir.\n\n\nTrafik Yoğunluğu ve Seyahat Süresi İlişkisi\n\n\nCode\nggplot(trafik, aes(x = congestion_index, y = average_travel_time_min)) +\n  geom_point(size = 3) +\n  geom_smooth(method = \"lm\", se = FALSE) +\n  labs(\n    title = \"Trafik Yoğunluğu ve Seyahat Süresi İlişkisi\",\n    x = \"Trafik Yoğunluğu\",\n    y = \"Seyahat Süresi (dk)\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\nGrafik, trafik yoğunluğu arttıkça seyahat süresinin de arttığını göstermektedir. Bu durum trafik yoğunluğu ile seyahat süresi arasında pozitif yönlü bir ilişki olduğunu ortaya koymaktadır.\n\n\nPik Trafik Saatleri\n\n\nCode\nggplot(trafik, aes(x = peak_hour)) +\n  geom_bar() +\n  labs(\n    title = \"Pik Trafik Saatleri\",\n    x = \"Saat\",\n    y = \"Gözlem Sayısı\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\nAnaliz sonuçlarına göre Ankara’da trafik yoğunluğunun en fazla olduğu saatler genellikle 18:00 ve 19:00 saatleridir. Bu durum mesai çıkış saatleriyle uyumludur.\n\n\nKorelasyon Analizi\n\n\nCode\nggplot(trafik,\n       aes(x = congestion_index,\n           y = average_travel_time_min)) +\n  geom_point(size = 3) +\n  geom_smooth(method = \"lm\", se = FALSE) +\n  labs(\n    title = \"Trafik Yoğunluğu ve Seyahat Süresi Arasındaki İlişki\",\n    x = \"Trafik Yoğunluğu\",\n    y = \"Seyahat Süresi (dk)\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\nKorelasyon sonucu, trafik yoğunluğu ile seyahat süresi arasında güçlü bir ilişki olduğunu göstermektedir."
+  },
+  {
+    "objectID": "proje.html#kazanımlar",
+    "href": "proje.html#kazanımlar",
+    "title": "Ankara Trafik Yoğunluğu ve Seyahat Süresi Analizi",
+    "section": "Kazanımlar:",
+    "text": "Kazanımlar:\n\nŞehir planlama,\nTrafik yönetimi,\nToplu taşıma optimizasyonu\n\ngibi alanlarda karar destek mekanizmaları açısından önemli bilgiler sunmaktadır.\nGelecek çalışmalarda:\n\nGerçek zamanlı trafik verileri,\nMeteorolojik veriler,\nNüfus yoğunluğu,\nÖzel gün ve etkinlik etkileri\n\ngibi ek değişkenler kullanılarak daha kapsamlı analizler gerçekleştirilebilir."
+  },
+  {
+    "objectID": "proje.html#yapay-zekâ-kullanım-beyanı",
+    "href": "proje.html#yapay-zekâ-kullanım-beyanı",
+    "title": "Ankara Trafik Yoğunluğu ve Seyahat Süresi Analizi",
+    "section": "Yapay Zekâ Kullanım Beyanı",
+    "text": "Yapay Zekâ Kullanım Beyanı\nBu çalışmanın hazırlanması sırasında veri analizi, raporlama yapısı ve kod geliştirme süreçlerinde üretken yapay zekâ araçlarından destek alınmıştır. Nihai içerik gözden geçirilmiş ve akademik değerlendirme tarafımızca yapılmıştır."
+  }
+]
